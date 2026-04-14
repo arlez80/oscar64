@@ -1,5 +1,8 @@
 rem @echo off
 
+@call :test array2dtest.c
+@if %errorlevel% neq 0 goto :error
+
 @call :test strparsetest.c
 @if %errorlevel% neq 0 goto :error
 

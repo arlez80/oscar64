@@ -73,6 +73,7 @@ struct VIC
 
 	volatile byte	ext_keymap;
 	volatile byte	ext_2mhz;
+	volatile byte	ext_uturbo;
 };
 
 // set the 16k Bank for the vic
